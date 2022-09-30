@@ -25,7 +25,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{https://snazzy-bombolone-539142.netlify.app}}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
