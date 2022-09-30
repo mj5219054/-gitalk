@@ -1,7 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <style>
+        #gitalk-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
 var gitalk = new Gitalk({
     clientID: '69dd72cdb3eb11196e45', // clientID 
     clientSecret: '7e71af2dfd210af22113fad39cb1a56500ef5ee7', // clientSecret
-    repo: 'mj5219054/-gitalk', // 评论仓库名
+    repo: 'gitalk', // 评论仓库名
     owner: 'mj5219054',
     admin: ['mj5219054'], // 管理人
     id: https://snazzy-bombolone-539142.netlify.app, // 返回当前 URL 的路径部分作为id
